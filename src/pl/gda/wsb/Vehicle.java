@@ -19,4 +19,8 @@ public abstract class Vehicle {
     protected float tankLevel;
     protected float odometer;
 
+    public float distAvailable(){
+        return (tankLevel*100/fuelComsumption);
+    }
+
 }
