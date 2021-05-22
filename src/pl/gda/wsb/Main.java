@@ -3,6 +3,8 @@ package pl.gda.wsb;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	    Car car1 = new Car("GDA3145F","WWF12345678GH","red",45050,8,21,8233);
+
+
     }
 }

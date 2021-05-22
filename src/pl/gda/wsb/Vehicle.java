@@ -2,25 +2,21 @@ package pl.gda.wsb;
 
 public abstract class Vehicle {
 
-    public Vehicle(String registration, String vin, String color, float price, float fuelComsumption, float tankLevel, float Odometer){
+    public Vehicle(String registration, String vin, String color, float price, float fuelComsumption, float tankLevel, float odometer){
         this.registration = registration;
         this.vin = vin;
         this.color = color;
         this.price = price;
         this.fuelComsumption = fuelComsumption;
         this.tankLevel = tankLevel;
-        this.Odometer = Odometer;
+        this.odometer = odometer;
 }
-    private String registration;
-    private String vin;
-    private String color;
-    private float price;
-    private float fuelComsumption;
-    private float tankLevel;
-    private float Odometer;
-
-
-
-
+    protected String registration;
+    protected String vin;
+    protected String color;
+    protected float price;
+    protected float fuelComsumption;
+    protected float tankLevel;
+    protected float odometer;
 
 }
